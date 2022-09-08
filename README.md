@@ -8,10 +8,10 @@
   * Utilizado no footer da pagina cadastroDeComponetesCurriculares.html
   * CSS externo (Arquivo main.css)
   * Utilizado em todas as paginas
-  - Todos os tipos de seletores
-  - Possibilidades do display
-  - Tipos diferentes de fontes
-  - Backgrounds diversos nas páginas
-  - Box Model
-  - Padding e Margin
-  - Posicionamento
+  * Todos os tipos de seletores
+  * Possibilidades do display
+  * Tipos diferentes de fontes
+  * Backgrounds diversos nas páginas
+  * Box Model
+  * Padding e Margin
+  * Posicionamento
