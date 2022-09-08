@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="CSS/main.css">
+  <title>Cadastro de Componentes Curriculares - UFC</title>
+</head>
+
+<body>
+  <header>UFC - Sigaa - Sistema Integrado de Gestão de Atividades Acadêmicas<br></header><br>
+  <blockquote>
+    <p> Esta é uma funcionalidade do sistema que permite a solicitação de Creditação de Horas de <b>Atividades
+        Complementares</b> e de <b>Extensão</b>. A Carga Horária total da Participação é calculada de acordo com sua
+      frequência na ação de
+      extensão. Procure o coordenador de sua ação para manter o lançamento de frequência em dia.</p>
+  </blockquote><br>
+  <h3>Atividades de Extensão do Discente na UFC</h3>
+  <table>
+    <tr>
+      <td><b>Discente: </b>MKHJHFDRSEAW$AESTRSYTDUD</td>
+    </tr>
+    <tr>
+      <td><b>Matrícula: </b>000000</td>
+    </tr>
+  </table>
+  <h4>Cadastrar Solicitação de Creditação de Ações de Extensão</h4>
+  <div id="formcadastro">
+    <form>
+      <div class="card-content-area">
+        <label"><strong>Tipo de Atividade:</strong></label><br><br>
+          <select>
+            <option value="0">Atividade de horas complementares</option>
+            <option value = "1">Atividade horas de extensão</option>
+          </select> 
+      </div>
+      <div class="card-content-area">
+        <label"><strong>Nome da atividade: </strong></label><br>
+        <input type=text required placeholder="Ex: Curso de desenvolvimento WEB">
+      </div>
+      <div class="card-content-area">
+          <label"><strong>E-mail do responsável: </strong></label>
+          <input type=text required placeholder="joao@email.com"><br>
+      </div>
+      <div class="card-content-area">
+          <label"><strong>Quantidade de Horas:</strong> </label>
+          <input type=text required placeholder="1876"><br>
+      </div>
+      <div class="card-content-area">
+            <label"><strong>Data: </strong></label>
+            <input type="date" required>
+      </div>
+       <div class="card-content-area">
+              <label"><strong>Telefone do Responsável: </strong></label>
+              <input type="tel" required placeholder="(xx) xxxxx-xxxx"><br><br>
+       </div>
+                <P><input id="btn" type=submit value="Cadastrar">
+                  <input id="btn" type="reset" value="Apagar Formulário">
+                </P>
+    </form>
+  </div><br><br>
+  <footer>SIGAA | Copyright © 2010-2022 - Superintendência de Tecnologia da Informação - UFC - (85) 3366-9999 -
+    si3asprd03.ufc.br
+    <style>
+      footer {
+        background: #394674;
+        color: #fff;
+        width: 100%;
+        padding: 0.5rem;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        bottom: 0;
+      }
+    </style>
+  </footer>
+</body>
+
+</html>

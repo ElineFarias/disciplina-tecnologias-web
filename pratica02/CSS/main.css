@@ -1,0 +1,172 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background: linear-gradient(50deg, #95aad8, #C4D2EB);
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+header {
+  background: #394674;
+  color: #fff;
+  width: 100%;
+  padding: 0.5rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  width: 100%;
+  padding: 0.5rem;
+
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+form {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+footer {
+  background: #394674;
+  color: #fff;
+  width: 100%;
+  padding: 0.5rem;
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+}
+
+/* CSS referente a pagina index.html*/
+blockquote > p {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+  margin: auto;
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.logon {
+  width: 390px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(rgba(255, 255, 255, 0.726), rgb(236, 236, 234));
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 70px 50px 30px;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 10%);
+  -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
+  -webkit-box-shadow: 0 5px 10px 0 rgb(0 0 0 / 10%);
+  -o-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
+  -ms-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
+}
+
+#principal {
+  background: url(/pratica02/imagens/brasaoUFC.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 550px;
+}
+#labelform {
+  z-index: 2;
+  text-align: center;
+  color: rgb(14, 13, 97);
+  font-size: 30px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+  font-weight: bold;
+}
+
+label {
+  color: rgb(14, 13, 97);
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.card-content-area {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+
+}
+.card-content-area input {
+  margin-top: 10px;
+  padding: 0 5px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #e1e1e1;
+  outline: none;
+  color:rgb(14, 13, 97);
+}
+#btn {
+  min-width: 160px;
+  height: 50px;
+  background:#394674;
+  border-radius: 40px;
+  font-size: 14px;
+  color: #fff;
+  border-style: hidden;
+}
+#btn:hover {
+  background-color: #C4D2EB;
+}
+/*CSS referente a pagina cadastroDeComponetesCurriculares.html*/
+h4, h3 {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: rgb(28, 5, 65);
+}
+tr, td {
+  text-align: left;
+  height: 20px;
+  vertical-align: bottom;
+}
+#formcadastro {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(rgba(255, 255, 255, 0.726), rgb(236, 236, 234));
+  border-radius: 20px;
+  padding: 70px 50px 30px;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 10%);
+  -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
+  -webkit-box-shadow: 0 5px 10px 0 rgb(0 0 0 / 10%);
+  -o-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
+  -ms-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
+}
+select {
+ font-family: Arial, Helvetica, sans-serif;
+ margin-top: 10px;
+ padding: 0 5px;
+ background-color: transparent;
+ border: none;
+ border-bottom: 2px solid #e1e1e1;
+ outline: none;
+ color:rgb(14, 13, 97);
+}
+/* CSS referente  a pagina PaineldeControle.html*/
+#perfil {
+  width: 300px;
+  height: 300px;
+}
