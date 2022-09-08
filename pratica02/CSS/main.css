@@ -11,6 +11,7 @@ body {
   flex-direction: column;
   align-items: center;
   height: 100vh;
+  z-index: 2;
 }
 
 header {
@@ -26,7 +27,6 @@ header {
 nav {
   width: 100%;
   padding: 0.5rem;
-
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -86,6 +86,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 550px;
+  z-index: -2;
 }
 #labelform {
   z-index: 2;
@@ -166,7 +167,123 @@ select {
  color:rgb(14, 13, 97);
 }
 /* CSS referente  a pagina PaineldeControle.html*/
-#perfil {
-  width: 300px;
-  height: 300px;
+.perfil {
+  text-align: center;
+}
+.perfil figure img {
+  z-index: -10;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 75px;
+  margin: 5px;
+}
+nav {
+  background-color: #dddddd;
+}
+nav li {
+  display: inline;
+  float: left;
+  border-right: 2px solid #bbb;
+}
+nav li:last-child {
+  border-right: none;
+}
+a {
+  display: block;
+  padding: 5px;
+  color: #394674;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  width: 100%;
+}
+a:hover {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+#dadosperfil p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
+  text-align: left;
+  color:#07174e;
+  font-size: 16px;
+}
+figcaption {
+  display: none;
+}
+#liprogressoCurso {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+  font-size: 18px;
+}
+#liprogressoCurso progress {
+  height: 20px;
+  padding: 5px;
+}
+#tablepainel  {
+    margin:auto;
+    padding-left: 15px;
+}
+#tablepainel th, td {
+  margin:auto;
+  padding: 5px;
+  text-align: left;
+  color: #050c29;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+#tablepainel tr:hover {
+  background-color: coral;
+}
+/* CSS referente  a pagina PaineldeControle.html*/
+#historico {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-align: justify;
+  margin:auto;
+  padding:auto;
+}
+#historico th, td {
+  margin:auto;
+  padding: 5px;
+  text-align: left;
+  color: #050c29;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+#blockquotehistorico {
+  color: black;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#logohistorico {
+    display: inline-block;
+    margin-left: 200px;
+}
+.logohistorico {
+  position: relative;    
+  float: left;
+}
+.logohistorico img {
+  max-width: 150px;
+  border-right: 100px;
+}
+.textohistorico {
+  position: relative;
+  float: left;
 }

@@ -10,34 +10,48 @@
 <body>
     <header>UFC - Sigaa - Sistema Integrado de Gestão de Atividades Acadêmicas</header>
       <nav>
-          <a href="paineldecontrole.html">Painel</a> |
-          <a href="historico.html">Historico</a> |
-          <a href="cadastroDeComponetesCurriculares.html">Cadastro de Componetes Curriculares</a> |
-          <a href="index.html">Sair</a>         
+        <ul>
+          <li>
+            <a href="paineldecontrole.html">Painel</a> 
+          </li>
+          <li>
+            <a href="historico.html">Historico</a> 
+          </li>
+          <li>
+            <a href="cadastroDeComponetesCurriculares.html">Cadastro de Componetes Curriculares</a>
+          </li>
+          <li>
+            <a href="index.html">Sair</a>  
+          </li>
+        </ul>       
       </nav>
       <div class= "perfil">
         <figure>
           <img src="./imagens/userimg.png" alt="Minha Figura">
           <figcaption>Informações da Figura</figcaption>
         </figure>
-        <blockquote><strong>Nome:</strong>   Maria Eline Silva de Farias<br>
-          <strong>E-mail: </strong><E-mail>  elinefarias33@gmail.com</E-mail><br>
-          <strong>Ira:</strong>   8.4<br>
-          <strong>Carga Horária Total Integralizada: </strong> 2416 <br><hr>
-          <label><i>Escolha a Cor desejada para o tema: </i></label>
-          <input type = "color"><br>
-          </blockquote>
-        </div>
-        <h4> Matérias</h4>
-      <ul>
-      <li><label><strong>Disciplinas Obrigatórias: </strong><progress value="98" max="100"> 98% </progress></label></li>
-      <li><label><strong>Disciplinas eletivas: </strong><progress value="60" max="100"> 60% </progress></label></li>
-      <li><label><strong>Horas de estágio obrigatório: </strong><progress value="0" max="100"> 0% </progress></label></li>
-      <li><label><strong>Horas complementares: </strong><progress value="98" max="100"> 98% </progress></label></li>
-      <li><label><strong>Horas de extensão: </strong><progress value="98" max="100"> 98% </progress></label></li>
-      <li><label><strong>Horas de programação: </strong><progress value="80" max="100"> 80% </progress></label></li>
-      </ul><br>
-      <table>
+        <section id= "dadosperfil">
+          <p><b>Nome: </b>Maria Eline Silva de Farias<br>
+            <b>E-mail: </b>elinefarias33@gmail.com<br>
+            <b>Ira: </b>8.4<br>
+            <b>Carga Horária Total Integralizada: </b> 2416 <br>
+            <b>Escolha a Cor desejada para o tema: </b>
+            <input type = "color">
+          </p>
+        </section>
+        </div><br>
+        <h4>Progresso no Curso</h4>
+      <div id="liprogressoCurso">
+        <ul>
+          <li><label><strong>Disciplinas Obrigatórias: </strong><progress value="98" max="100"> 98% </progress></label></li>
+          <li><label><strong>Disciplinas eletivas: </strong><progress value="60" max="100"> 60% </progress></label></li>
+          <li><label><strong>Horas de estágio obrigatório: </strong><progress value="0" max="100"> 0% </progress></label></li>
+          <li><label><strong>Horas complementares: </strong><progress value="98" max="100"> 98% </progress></label></li>
+          <li><label><strong>Horas de extensão: </strong><progress value="98" max="100"> 98% </progress></label></li>
+          <li><label><strong>Horas de programação: </strong><progress value="80" max="100"> 80% </progress></label></li>
+          </ul><br>        
+      </div>
+      <table id = "tablepainel">
           <tr>
             <th></th>
             <th>Exigido</th>
@@ -46,35 +60,35 @@
             <th>Pendente</th>
           </tr>
           <tr>
-            <td><strong> Horária Total: </strong></td>
+            <td>Carga Horária Total:</td>
             <td>3648</td>
             <td>2416</td>
             <td>2416</td>
             <td>1232</td>
           </tr>
           <tr>
-            <td><strong>Carga Horária Optativa: </strong></td>
+            <td>Carga Horária Optativa:</td>
             <td>896</td>
             <td>288</td>
             <td>288</td>
             <td>608</td>
           </tr>
           <tr>
-            <td><strong> Carga Horária de Atividades Complementares: </strong></td>
+            <td>Carga Horária de Atividades Complementares:</td>
             <td>176</td>
             <td>0</td>
             <td>0</td>
             <td>176</td>
           </tr>
           <tr>
-            <td><strong> Carga Horária de Atividades Complementares: </strong></td>
+            <td>Carga Horária de Atividades Complementares:</td>
             <td>176</td>
             <td>0</td>
             <td>0</td>
             <td>176</td>
           </tr>
           <tr>
-            <td><strong> Carga Horária de Optativas Livres: </strong></td>
+            <td>Carga Horária de Optativas Livres:</td>
             <td>0</td>
             <td>0</td>
             <td>0</td>
