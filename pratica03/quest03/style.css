@@ -1,0 +1,46 @@
+@media only screen and (min-width: 320px) {
+  #quest01 {
+    background-color: black;
+  }
+}
+@media only screen and (min-width: 480px) {
+  #quest01 {
+    background-color: #87CEFA;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #quest01 {
+    background-color: #00FF00;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #quest01 {
+    background-color: #FFFF00;
+  }
+}
+@media only screen and (min-width: 800px) {
+  #quest01 {
+    background-color: #8B864E;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #quest01 {
+    background-color: #00008B;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  #quest01 {
+    background-color: #008B00;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  #quest01 {
+    background-color: #8B1A1A;
+  }
+}
+@media not all and (orientation:landscape) {
+  #quest02 {
+   display: none;
+  }
+}
+

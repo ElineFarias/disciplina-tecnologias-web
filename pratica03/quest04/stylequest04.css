@@ -1,0 +1,105 @@
+@media screen and (min-width: 0px) and (max-width:480px) {
+  #div01 {
+    background-color: #d4ccd4;
+    border: 1px solid rgb(172, 172, 172);
+  }
+  #div02 {
+    background-color: #d4ccd4;
+    border: 1px solid rgb(172, 172, 172);
+  }
+  #div03 {
+    background-color: #d4ccd4;
+    border: 1px solid rgb(172, 172, 172);
+  }
+  #div04 {
+    background-color: #d4ccd4;
+    border: 1px solid rgb(172, 172, 172);
+  }
+  #div05 {
+    background-color: #d4ccd4;
+    border: 1px solid rgb(172, 172, 172);
+  }
+  #img {
+    display: none;
+  }
+}
+@media screen and (min-width: 769px) and (max-width:1279px) {
+  #div01 {
+    background-color: #d4ccd4;
+    border: 1px solid rgb(172, 172, 172);
+  }
+  #div02 {
+    background-color: #d4ccd4;
+    border: 1px solid rgb(172, 172, 172);
+  }
+  #div03 {
+    background-color: #d4ccd4;
+    border: 1px solid rgb(172, 172, 172);
+  }
+  #div04 {
+    background-color: #d4ccd4;
+    border: 1px solid rgb(172, 172, 172);
+  }
+  #div05 {
+    background-color: #d4ccd4;
+    border: 1px solid rgb(172, 172, 172);
+  }
+  #paises {
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    position:relative;
+  }
+  #texto{
+    position:relative;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+  }
+  #img {
+    display: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  #div01 {
+    background-color: #d4ccd4;
+    border: 1px solid rgb(172, 172, 172);
+  }
+  #div02 {
+    background-color: #d4ccd4;
+    border: 1px solid rgb(172, 172, 172);
+  }
+  #div03 {
+    background-color: #d4ccd4;
+    border: 1px solid rgb(172, 172, 172);
+  }
+  #div04 {
+    background-color: #d4ccd4;
+    border: 1px solid rgb(172, 172, 172);
+  }
+  #div05 {
+    background-color: #d4ccd4;
+    border: 1px solid rgb(172, 172, 172);
+  }
+  #paises {
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    position:relative;
+  }
+  #img {
+    position:relative;
+    display: inline-block;
+    width: 15%;
+    height: 100%;
+  }
+  #texto{
+    position:relative;
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+  }
+}
+
+
+

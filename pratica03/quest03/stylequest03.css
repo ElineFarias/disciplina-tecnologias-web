@@ -1,0 +1,54 @@
+@media screen and (min-width: 0px) and (max-width:480px) {
+  #div01 {
+    background-color: #00FF7F;
+  }
+  #div02 {
+    display: none;
+  }
+  #div03 {
+    display: none;
+  }
+  #div04 {
+    display: none;
+  }
+  #div05 {
+    display: none;
+  }
+}
+@media screen and (min-width: 769px) and (max-width:1279px) {
+  #div01 {
+    background-color: #00FF7F;
+  }
+  #div02 {
+    background-color: #00BFFF;
+  }
+  #div03 {
+    display: none;
+  }
+  #div04 {
+    display: none;
+  }
+  #div05 {
+    display: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  #div01 {
+    background-color: #00FF7F;
+  }
+  #div02 {
+    background-color: #00BFFF;
+  }
+  #div03 {
+    background-color: #D8BFD8;
+  }
+  #div04 {
+    background-color: #00FF7F;
+  }
+  #div05 {
+     background-color: #00BFFF;
+  }
+}
+
+
+
