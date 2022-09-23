@@ -15,3 +15,5 @@
   * Box Model
   * Padding e Margin
   * Posicionamento
+3. CSS Exercicios - Media Query
+4. CSS Exercicios - Flexbox
