@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./assets/CSS/main.css">
+  <title>Painel de Controle</title>
+  <!-- Bootstrap Core CSS -->
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <header>UFC - Sigaa - Sistema Integrado de Gestão de Atividades Acadêmicas</header>
+  <nav>
+    <button type="button" class="btn btn-secondary">
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <span class="d-inline-block" data-toggle="popover" data-content="Disabled popover">
+          <button class="btn btn-primary" style="pointer-events: none;" type="button" disabled>Painel</button>
+        </span>
+      </div>
+    </button>
+      <button type="button" class="btn btn-secondary">
+        <a href="historico.html">Historico</a>
+      </button>
+      <button type="button" class="btn btn-secondary">
+        <a href="cadastroDeComponetesCurriculares.html">Cadastro de Componetes Curriculares</a>
+      </button>
+      <button type="button" class="btn btn-secondary">
+        <a href="index.html">Sair</a>
+      </button>
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Avisos</button>
+      <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasTopLabel">Avisos</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          Não perca as matrículas
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <img src="./assets/icons/list.svg"
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="paineldecontrole.html">Painel</a>
+      <a class="dropdown-item" href="historico.html">Historico</a>
+      <a class="dropdown-item" href="cadastroDeComponetesCurriculares.html">Cadastro de Componetes Curriculares</a>
+      <a class="dropdown-item" href="index.html">Sair</a>
+    </div>
+  </div>
+  <div id="carousel-controles" class="carousel slide" data-ride="carousel"><!--Carousel -->
+    <div class="carousel-inner"><!--Inner -->
+
+      <div class="carousel-item active">
+        <img src="./imagens/imgcarrosel01.png" class="img-fluid">
+      </div>
+
+      <div class="carousel-item">
+        <img src="./imagens/imgcarrosel02.png" class="img-fluid">
+      </div>
+
+      <div class="carousel-item">
+        <img src="./imagens/imgcarrosel01.png" class="img-fluid">
+      </div>
+
+    </div><!--/Inner -->
+
+    <!--Controles-->
+    <a href="#carousel-controles" class="carousel-control-prev" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+
+    <a href="#carousel-controles" class="carousel-control-next" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div><!--/Carousel -->
+  <div class="perfil">
+    <figure>
+      <img src="./imagens/userimg.png" alt="Minha Figura">
+      <figcaption>Informações da Figura</figcaption>
+    </figure>
+    <section id="dadosperfil">
+      <p><b>Nome: </b>Maria Eline Silva de Farias<br>
+        <b>E-mail: </b>elinefarias33@gmail.com<br>
+        <b>Ira: </b>8.4<br>       
+        <p>
+          <a class="btn" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Carga Horária Total Integralizada:
+          </a>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body">2416</div>
+        </div>
+        <b>Escolha a Cor desejada para o tema: </b>
+        <input type="color">
+      </p>
+    </section>
+  </div><br>
+  <table id="tablepainel">
+    <tr>
+      <th></th>
+      <th>Exigido</th>
+      <th>Integralizado</th>
+      <th>Computável</th>
+      <th>Pendente</th>
+    </tr>
+    <tr>
+      <td>Carga Horária Total:</td>
+      <td>3648</td>
+      <td>2416</td>
+      <td>2416</td>
+      <td>1232</td>
+    </tr>
+    <tr>
+      <td>Carga Horária Optativa:</td>
+      <td>896</td>
+      <td>288</td>
+      <td>288</td>
+      <td>608</td>
+    </tr>
+    <tr>
+      <td>Carga Horária de Atividades Complementares:</td>
+      <td>176</td>
+      <td>0</td>
+      <td>0</td>
+      <td>176</td>
+    </tr>
+    <tr>
+      <td>Carga Horária de Atividades Complementares:</td>
+      <td>176</td>
+      <td>0</td>
+      <td>0</td>
+      <td>176</td>
+    </tr>
+    <tr>
+      <td>Carga Horária de Optativas Livres:</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </table>
+  <div class="accordion" id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="titulo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+          Progresso no Curso
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
+        aria-labelledby="panelsStayOpen-headingOne" style="">
+        <div class="accordion-body">
+          <div id="liprogressoCurso">
+            Disciplinas Obrigatórias:<br>
+            <div class="progress">
+              <div class="progress-bar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            Disciplinas eletivas:<br>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            Horas de estágio obrigatório:<br>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            Horas complementares:<br>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            Horas de extensão:<br>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            Horas de programação:<br>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer style="position: relative"> SIGAA | Copyright © 2010-2022 - Superintendência de Tecnologia da Informação - UFC
+    - (85) 3366-9999 - si3asprd03.ufc.br
+  </footer>
+
+  
+     <!-- Bootstrap Core JavaScript -->
+   <script src="./assets/js/bootstrap.min.js"> </script>
+   <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

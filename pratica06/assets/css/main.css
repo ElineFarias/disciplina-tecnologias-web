@@ -1,0 +1,337 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background: linear-gradient(50deg, #95aad8, #C4D2EB);
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  z-index: 2;
+}
+
+header {
+  background: #394674;
+  color: #fff;
+  width: 100%;
+  padding: 0.5rem;
+
+  display:inline-block;
+  justify-content: center;
+}
+
+nav {
+  width: 100%;
+  padding: 0.5rem;
+  display:inline-block;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#dropdownMenuButton {
+  display: none;
+}
+
+form {
+  max-width: 1000px;
+  display:inline-block;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+footer {
+  background: #394674;
+  color: #fff;
+  width: 100%;
+  padding: 0.5rem;
+
+  position: absolute;
+  display:inline-block;
+  justify-content: center;
+  bottom: 0;
+}
+
+/* CSS referente a pagina index.html*/
+blockquote > p {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+  margin: auto;
+}
+.badge {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  color: #050c29;
+  font-size: 30px;
+  text-decoration: none;
+}
+p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.logon {
+  width: 390px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(rgba(255, 255, 255, 0.726), rgb(236, 236, 234));
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 70px 50px 30px;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 10%);
+  -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
+  -webkit-box-shadow: 0 5px 10px 0 rgb(0 0 0 / 10%);
+  -o-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
+  -ms-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
+}
+
+#principal {
+  background: url(/pratica02/imagens/brasaoUFC.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 550px;
+  z-index: -2;
+}
+#labelform {
+  z-index: 2;
+  text-align: center;
+  color: rgb(14, 13, 97);
+  font-size: 30px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+  font-weight: bold;
+}
+
+label {
+  color: rgb(14, 13, 97);
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.card-content-area {
+  display:inline-block;
+  flex-direction: column;
+  padding: 10px 0;
+
+}
+.card-content-area input {
+  margin-top: 10px;
+  padding: 0 5px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #e1e1e1;
+  outline: none;
+  color:rgb(14, 13, 97);
+}
+#btn {
+  min-width: 160px;
+  height: 50px;
+  background:#394674;
+  border-radius: 40px;
+  font-size: 14px;
+  color: #fff;
+  border-style: hidden;
+}
+#btn:hover {
+  background-color: #C4D2EB;
+}
+/*CSS referente a pagina cadastroDeComponetesCurriculares.html*/
+h4, h3 {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: rgb(28, 5, 65);
+}
+tr, td {
+  text-align: left;
+  height: 20px;
+  vertical-align: bottom;
+}
+#formcadastro {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(rgba(255, 255, 255, 0.726), rgb(236, 236, 234));
+  border-radius: 20px;
+  padding: 70px 50px 30px;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 10%);
+  -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
+  -webkit-box-shadow: 0 5px 10px 0 rgb(0 0 0 / 10%);
+  -o-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
+  -ms-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
+}
+select {
+ font-family: Arial, Helvetica, sans-serif;
+ margin-top: 10px;
+ padding: 0 5px;
+ background-color: transparent;
+ border: none;
+ border-bottom: 2px solid #e1e1e1;
+ outline: none;
+ color:rgb(14, 13, 97);
+}
+/* CSS referente  a pagina PaineldeControle.html*/
+#carousel-controles img {
+  margin: 0px 20px 0px 200px;
+}
+.btn {
+  font-style: italic;
+}
+.perfil {
+  text-align: center;
+}
+.perfil figure img {
+  z-index: -10;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 75px;
+  margin: 5px;
+}
+
+a {
+  display: block;
+  padding: 5px;
+  color: #394674;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #95aad8;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  width: 100%;
+}
+a:hover {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+#dadosperfil p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
+  text-align: left;
+  color:#07174e;
+  font-size: 16px;
+}
+figcaption {
+  display: none;
+}
+#liprogressoCurso {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+  font-size: 18px;
+}
+#liprogressoCurso progress {
+  height: 20px;
+  padding: 5px;
+}
+#tablepainel  {
+    margin:auto;
+    padding-left: 15px;
+}
+#tablepainel th, td {
+  margin:auto;
+  padding: 5px;
+  text-align: left;
+  color: #050c29;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+#tablepainel tr:hover {
+  background:  #1857c4;
+}
+#accordionPanelsStayOpenExample {
+  background:#C4D2EB;
+}
+#accordionPanelsStayOpenExample .accordion-item:first-of-type .accordion-button {
+  width: 50%;
+  margin: 0 auto;
+  background: none;
+  margin: 3px #95aad8 solid;
+}
+#accordionPanelsStayOpenExample .accordion-header #titulo {
+  width: 50%;
+  margin: 0 auto;
+}
+/* CSS referente  a pagina historico.html*/
+#historico {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-align: justify;
+  margin:auto;
+  padding:auto;
+}
+#historico th, td {
+  margin:auto;
+  padding: 5px;
+  text-align: left;
+  color: #050c29;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+#blockquotehistorico {
+  color: black;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#logohistorico {
+    display: inline-block;
+    margin-left: 200px;
+}
+.logohistorico {
+  position: relative;    
+  float: left;
+}
+.logohistorico img {
+  max-width: 150px;
+  border-right: 100px;
+}
+.textohistorico {
+  position: relative;
+  float: left;
+}
+
+#titulo {
+  background: #95aad8;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+/*-------------------------------------------------------------------------*/
+/*--------------------------- celular e tablets--------------------------- */
+@media (min-width: 0px) and (max-width: 768px) {
+#dropdownMenuButton {
+ display: inline;
+ justify-content: start;
+ height: 200px;
+}
+nav .btn-group {
+  display: none;
+}
+#carousel-controles {
+  display: none;
+}
+}
+
+/*------------------------------------------------------------------*/
+/*------------------------ telas maiores---------------------------- */
+@media (min-width: 1335px) {
+ 
+}
