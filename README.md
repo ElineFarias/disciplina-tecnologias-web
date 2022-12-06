@@ -17,3 +17,6 @@
   * Posicionamento
 3. CSS Exercicios - Media Query
 4. CSS Exercicios - Flexbox
+5. CC EXercicios - Grid
+6. Bootstrap
+7. JavaScript exercicios
