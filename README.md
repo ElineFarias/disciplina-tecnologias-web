@@ -1,4 +1,4 @@
-# Disciplina Tecnologias Web
+# Disciplina Tecnologias Web 2022-2
 
 Este repositório contém materiais relacionados à disciplina de Tecnologias Web. Aqui você encontrará exemplos de código e projetos práticos realizados durante a disciplina.
 
@@ -23,6 +23,17 @@ As principais tecnologias abordadas neste repositório são:
 - CSS
 - JavaScript
 - Frameworks front-end (por exemplo,Bootstrap)
+
+#### Projeto DisneyMoviesPage
+
+Este projeto foi desenvolvido originalmente por [LaisFSGomes](https://github.com/LaisFSGomes) como o repositório [DisneyMoviesPage](https://github.com/LaisFSGomes/DisneyMoviesPage). 
+
+Contribuí para este projeto com as seguintes melhorias:
+
+- Implementação das seções novidaes, sugestões de Filmes e comunidades.
+
+Agradeço à equipe do projeto DisneyMoviesPage por criar e manter esse projeto incrível. Sinta-se à vontade para conferir o repositório original para mais detalhes e para contribuir com o projeto principal.
+
 
 ## Instalação
 
