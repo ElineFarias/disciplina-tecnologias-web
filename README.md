@@ -54,4 +54,4 @@ Contribuições são bem-vindas! Se você deseja melhorar algum exemplo existent
 
 ## Licença
 
-Este projeto é licenciado sob a [Licença MIT](LICENSE).
+Este projeto é licenciado sob a [Licença MIT](licence).
