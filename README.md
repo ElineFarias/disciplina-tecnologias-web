@@ -26,13 +26,11 @@ As principais tecnologias abordadas neste repositório são:
 
 #### Projeto DisneyMoviesPage
 
-Este projeto foi desenvolvido originalmente por [LaisFSGomes](https://github.com/LaisFSGomes) como o repositório [DisneyMoviesPage](https://github.com/LaisFSGomes/DisneyMoviesPage). 
+Este projeto foi desenvolvido originalmente por [LaisFSGomes](https://github.com/LaisFSGomes) como o repositório [DisneyMoviesPage](https://github.com/LaisFSGomes/DisneyMoviesPage). Colaborei para este projeto com as seguintes melhorias:
 
-Colaborei para este projeto com as seguintes melhorias:
+- Implementação das seções novidades, sugestões de filmes e comunidades.
 
-- Implementação das seções novidaes, sugestões de Filmes e comunidades.
-
-Agradeço à equipe do projeto DisneyMoviesPage por criar e manter esse projeto incrível. Sinta-se à vontade para conferir o repositório original para mais detalhes e para contribuir com o projeto principal.
+Agradeço à equipe do projeto DisneyMoviesPage por criar esse projeto. Sinta-se à vontade para conferir o repositório original para mais detalhes e para contribuir com o projeto principal.
 
 
 ## Instalação
