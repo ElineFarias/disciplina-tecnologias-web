@@ -55,3 +55,5 @@ Contribuições são bem-vindas! Se você deseja melhorar algum exemplo existent
 ## Licença
 
 Este projeto é licenciado sob a [Licença MIT](licence).
+
+*Projetos realizados como parte do curso de Engenharia de computação na Universidade Federal do Ceará - Campus Sobral.*
