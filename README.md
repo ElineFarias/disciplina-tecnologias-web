@@ -1,4 +1,4 @@
-# Disciplina Tecnologias Web 2022-2
+# Disciplina Tecnologias Web 2022-2 💻
 
 Este repositório contém materiais relacionados à disciplina de Tecnologias Web. Aqui você encontrará exemplos de código e projetos práticos realizados durante a disciplina.
 
@@ -57,3 +57,5 @@ Contribuições são bem-vindas! Se você deseja melhorar algum exemplo existent
 Este projeto é licenciado sob a [Licença MIT](licence).
 
 *Projetos realizados como parte do curso de Engenharia de computação na Universidade Federal do Ceará - Campus Sobral.*
+
+                          Explore, inove e construa a próxima geração da web!💻
